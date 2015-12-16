@@ -38,3 +38,4 @@ Thumbs.db
 
 # My stuff #
 node_modules
+src/frontend/bower_components
