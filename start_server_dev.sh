@@ -1,0 +1,1 @@
+KW_ENV=dev node src/backend/index.js
