@@ -20,7 +20,7 @@
 		Repository.prototype.readAll = function() {
 			var self = this;
 			var deferred = $q.defer();
-			Restangular.all(self.endpoint + '/').goGET().then(function(data) {
+			Restangular.all(self.endpoint + '/').doGET().then(function(data) {
 				var items = self.retrieveItems(data);
 				deferred.resolve(items);
 			});

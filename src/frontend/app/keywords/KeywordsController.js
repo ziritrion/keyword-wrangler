@@ -69,14 +69,14 @@
 					but our own */
 					field: 'keywordCategoryID',
 					displayName: 'Category',
-					cellTemplate: 'app/keywords/partials//keywordCategoryGridCell.html',
+					cellTemplate: 'app/keywords/partials/keywordCategoryGridCell.html',
 					editableCellTemplate: 'app/keywords/partials/keywordCategoryGridCellEditor.html'
 				},
 				{
 					/* Same goes for the operations column */
 					field: '',
 					displayName: 'Operations',
-					cellTemplate: 'app/keywords/partials//operationsGridCell.html',
+					cellTemplate: 'app/keywords/partials/operationsGridCell.html',
 					enableCellEdit: false,
 					sortable: false
 				}
